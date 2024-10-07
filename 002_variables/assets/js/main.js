@@ -224,7 +224,19 @@ console.log(`ciao ${c}`);
 
 
 
+// Global variables 
+let name = "Luca";
+const my_age = 25;
+var city = "Milano";
+laptop = "Macbook Pro"; // ❌ global variable bad practice
 
+
+let thisAge = 123;
+
+if (name === "Luca") {
+  let thisAge = 30;
+  console.log(thisAge);
+}
 
 
 

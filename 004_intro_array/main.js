@@ -111,3 +111,24 @@ for (let index = 0; index < avatar_movie.length; index++) {
 
 }
 
+
+
+
+/* Update array elements */
+
+const new_movies_2 = ['Matrix', 'Avartar', 'Imitation game'];
+
+// update thefirst element
+const matrix = new_movies_2[0];
+
+new_movies_2[0] = 'The Matrix';
+
+console.log(new_movies_2); // array(3) ["The Matrix", "Avartar", "Imitation game"]
+
+
+// CRUD operations
+// create an array
+// read an element of an array
+// update the array
+// delete an element from an array
+
