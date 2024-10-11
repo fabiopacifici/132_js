@@ -1,0 +1,14 @@
+body
+{
+  background-color: #ededed;
+}
+
+.ticket_details
+{
+  width: 100%;
+
+  &>div
+  {
+    flex-grow: 1;
+  }
+}
